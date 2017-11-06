@@ -1,0 +1,10 @@
+-p C:\Program Files\dotnet\dotnet.exe
+-pidFile C:\Users\swang\source\repos\dotnet-cor-rest-test\WebApplication2\bin\IISSupport\pidfile.txt
+-wd C:\Users\swang\source\repos\dotnet-cor-rest-test\WebApplication2
+-a exec "C:\Users\swang\source\repos\dotnet-cor-rest-test\WebApplication2\bin\Debug\netcoreapp2.0\donet-cor-webapi.dll"
+-wbe Global\Build298fbbb9-34f4-468f-b694-d8b57c0b37d0
+-lse Global\Launch15766f6a-ee8f-46aa-8566-44c2c018f910
+-pipe c439a448-c125-4d84-a94a-90a5430ce849
+-pr donet-cor-webapi
+-owningPid 26556
+-env ASPNETCORE_CONTENTROOT=C:\Users\swang\source\repos\dotnet-cor-rest-test\WebApplication2|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|COMPLUS_ForceENC=1|

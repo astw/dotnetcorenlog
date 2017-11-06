@@ -1,0 +1,23 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost:99",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4855/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "GLWA-API": {
+      "commandName": "IIS",
+      "commandLineArgs": "GLWA-remote-sampler-API"
+    },
+    "GLWA-API-IISExpress": {
+      "commandName": "IISExpress"
+    }
+  }
+}
